@@ -1,0 +1,54 @@
+body{
+    background-image: url(https://previews.123rf.com/images/burakowski/burakowski1202/burakowski120200228/12221967-grunge-example-stamp.jpg);
+    background-size: cover;
+}
+* {
+    text-align:left;
+}
+/*h1 p*/ /*h1ben lévő p */
+/*h1 > p */ /* p-k amiknek a h1 a parentje */
+/*h1+ p  *//* rögtön h1 után p*/
+h1,p{ /* hover: csak ha föléviszed a kurzort */
+    color:red;
+    text-align: center;
+    border: 5px solid;
+    border-color: rgba(255, 0, 255, 0.4);
+    cursor: pointer;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;}
+
+
+li{ list-style: none;
+    color: darkgoldenrod;
+    display:inline-block;
+}
+
+.webtext{
+    border: 5px dashed yellow;
+}
+
+.active{
+    column-width: 200px;
+}
+.boxmodel{
+    border: 5px solid red;
+    display: inline-block;
+    padding: 20px 5px 2px 30px;
+    margin: 15px;
+}
+
+#div1{
+    background-color: rgb(0,0,255,0.7);
+}
+#div2{
+    background-color: chartreuse;
+}
+img{
+    float: right;
+}
+footer{
+clear: both;
+}
+
