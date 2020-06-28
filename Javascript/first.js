@@ -78,9 +78,8 @@ a.forEach(function(entry) {
 
 
 
-
-
-
+var a  = document.querySelector("h1");
+console.log(a);
 
 
 
@@ -104,3 +103,5 @@ a.forEach(function(entry) {
     
 
  }
+
+
